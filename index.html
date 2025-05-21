@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat IA Elegante</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1>Asistente IA</h1>
+            <div class="status-indicator">
+                <span class="status-dot"></span>
+                En línea
+            </div>
+        </div>
+        
+        <div class="chat-messages" id="chatMessages">
+            <!-- Los mensajes se agregarán aquí dinámicamente -->
+        </div>
+
+        <div class="chat-input-container">
+            <form id="chatForm" class="chat-form">
+                <textarea 
+                    id="userInput" 
+                    placeholder="Escribe tu mensaje aquí..." 
+                    rows="1"
+                    required></textarea>
+                <button type="submit" class="send-button">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <span class="footer-text">Hecho con</span>
+            <span class="heart">❤</span>
+            <span class="footer-text">por</span>
+            <span class="author">Luis VR</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
