@@ -202,6 +202,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Si no hay mensajes guardados, mostrar el mensaje de bienvenida
     if (conversationHistory.length === 1) {
-        addMessage('¡Hola Fabi! 👋 Soy Leonardo, tu asistente virtual personal. Estoy aquí para ayudarte con cualquier consulta que tengas, desde temas cotidianos hasta asuntos más complejos. ¿En qué puedo ayudarte hoy? 😊 \n\n \n\n*Nota: Actualmente estoy en modo de prueba, así que algunas respuestas pueden no ser perfectas, pero haré lo mejor para ayudarte 👑💪*');
+        addMessage('¡Hola! 👋 Soy Leonardo, tu asistente virtual personal. Estoy aquí para ayudarte con cualquier consulta que tengas, desde temas cotidianos hasta asuntos más complejos. ¿En qué puedo ayudarte hoy? 😊 \n\n \n\n*Nota: Actualmente estoy en modo de prueba, así que algunas respuestas pueden no ser perfectas, pero haré lo mejor para ayudarte 👑💪*');
     }
 });
