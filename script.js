@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Configuración de OpenRouter
     const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-    const OPENROUTER_API_KEY = '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';
+    const OPENROUTER_API_KEY = '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';
+    //const OPENROUTER_API_KEY = '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';
     const MODEL = 'deepseek/deepseek-r1:free';
 
     // Definición de la personalidad del asistente
